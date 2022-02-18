@@ -1,16 +1,3 @@
-.ghost {
-    display: none;
-}
-
-#anchor {
-    border-style: solid;
-}
-
-.info {
-    border-style: dashed;
-}
-
-/*change to anchor*/
 .container {
     display:grid;
     grid-template-columns:repeat(6,1fr);
@@ -21,7 +8,7 @@
     padding:1em;
 }
 
-/*change to info*/
 .boo {
     border-style: dashed;
 }
+

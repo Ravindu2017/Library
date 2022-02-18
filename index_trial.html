@@ -37,22 +37,41 @@
 
     </div>
 
+    <div id="anchor" class="container">
+
+    </div>
+
     <div id="anchor_2" class="container">
 
     </div>
+
+
+
+    <!--<br>
+        <!-p>Message is: <span id="display_message"></span></p-->
 
     <script src="script_constructor.js" async defer></script>
     <script>
         function unHide() {
             var boo = document.getElementById("target")
+            //alert("The form was submitted");
+
+            //If there is class remove it
             if (document.getElementById("target").classList.length > 0) {
                 boo.classList.remove("ghost")
             }
 
+            //Else add it
             else {
                 boo.classList.add("ghost")
             }
         }
+        /*
+        function Hide() {
+            var boo = document.getElementById("target")
+            //alert("The form was submitted");
+            boo.classList.add("ghost")
+        }*/
     </script>
 </body>
 
